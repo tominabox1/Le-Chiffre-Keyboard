@@ -1,0 +1,1753 @@
+EESchema Schematic File Version 4
+LIBS:ErgoBoard-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Switch:SW_Push SW28
+U 1 1 5E4D118C
+P 9350 2850
+F 0 "SW28" H 9350 3135 50  0000 C CNN
+F 1 "SW_Push" H 9350 3044 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 9350 3050 50  0001 C CNN
+F 3 "~" H 9350 3050 50  0001 C CNN
+	1    9350 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D27
+U 1 1 5E4E13F1
+P 9150 3000
+F 0 "D27" V 9104 3079 50  0000 L CNN
+F 1 "1N4148" V 9195 3079 50  0000 L CNN
+F 2 "Keebio-Parts:D_SOD123" H 9150 2825 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9150 3000 50  0001 C CNN
+	1    9150 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW34
+U 1 1 5E56532C
+P 10450 2850
+F 0 "SW34" H 10450 3135 50  0000 C CNN
+F 1 "SW_Push" H 10450 3044 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 10450 3050 50  0001 C CNN
+F 3 "~" H 10450 3050 50  0001 C CNN
+	1    10450 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D33
+U 1 1 5E565332
+P 10250 3000
+F 0 "D33" V 10204 3079 50  0000 L CNN
+F 1 "1N4148" V 10295 3079 50  0000 L CNN
+F 2 "Keebio-Parts:D_SOD123" H 10250 2825 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10250 3000 50  0001 C CNN
+	1    10250 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW31
+U 1 1 5E566196
+P 9900 2850
+F 0 "SW31" H 9900 3135 50  0000 C CNN
+F 1 "SW_Push" H 9900 3044 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 9900 3050 50  0001 C CNN
+F 3 "~" H 9900 3050 50  0001 C CNN
+	1    9900 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D30
+U 1 1 5E56619C
+P 9700 3000
+F 0 "D30" V 9654 3079 50  0000 L CNN
+F 1 "1N4148" V 9745 3079 50  0000 L CNN
+F 2 "Keebio-Parts:D_SOD123" H 9700 2825 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9700 3000 50  0001 C CNN
+	1    9700 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW12
+U 1 1 5E567556
+P 7150 2850
+F 0 "SW12" H 7150 3135 50  0000 C CNN
+F 1 "SW_Push" H 7150 3044 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 7150 3050 50  0001 C CNN
+F 3 "~" H 7150 3050 50  0001 C CNN
+	1    7150 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D11
+U 1 1 5E56755C
+P 6950 3000
+F 0 "D11" V 6904 3079 50  0000 L CNN
+F 1 "1N4148" V 6995 3079 50  0000 L CNN
+F 2 "Keebio-Parts:D_SOD123" H 6950 2825 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6950 3000 50  0001 C CNN
+	1    6950 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW16
+U 1 1 5E568D70
+P 7700 2850
+F 0 "SW16" H 7700 3135 50  0000 C CNN
+F 1 "SW_Push" H 7700 3044 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 7700 3050 50  0001 C CNN
+F 3 "~" H 7700 3050 50  0001 C CNN
+	1    7700 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D15
+U 1 1 5E568D76
+P 7500 3000
+F 0 "D15" V 7454 3079 50  0000 L CNN
+F 1 "1N4148" V 7545 3079 50  0000 L CNN
+F 2 "Keebio-Parts:D_SOD123" H 7500 2825 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7500 3000 50  0001 C CNN
+	1    7500 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW3
+U 1 1 5E56AC3A
+P 5500 2850
+F 0 "SW3" H 5500 3135 50  0000 C CNN
+F 1 "SW_Push" H 5500 3044 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 5500 3050 50  0001 C CNN
+F 3 "~" H 5500 3050 50  0001 C CNN
+	1    5500 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D2
+U 1 1 5E56AC40
+P 5300 3000
+F 0 "D2" V 5254 3079 50  0000 L CNN
+F 1 "1N4148" V 5345 3079 50  0000 L CNN
+F 2 "Keebio-Parts:D_SOD123" H 5300 2825 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5300 3000 50  0001 C CNN
+	1    5300 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW9
+U 1 1 5E56C46F
+P 6600 2850
+F 0 "SW9" H 6600 3135 50  0000 C CNN
+F 1 "SW_Push" H 6600 3044 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 6600 3050 50  0001 C CNN
+F 3 "~" H 6600 3050 50  0001 C CNN
+	1    6600 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D8
+U 1 1 5E56C475
+P 6400 3000
+F 0 "D8" V 6354 3079 50  0000 L CNN
+F 1 "1N4148" V 6445 3079 50  0000 L CNN
+F 2 "Keebio-Parts:D_SOD123" H 6400 2825 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6400 3000 50  0001 C CNN
+	1    6400 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW6
+U 1 1 5E56DD0B
+P 6050 2850
+F 0 "SW6" H 6050 3135 50  0000 C CNN
+F 1 "SW_Push" H 6050 3044 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 6050 3050 50  0001 C CNN
+F 3 "~" H 6050 3050 50  0001 C CNN
+	1    6050 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D5
+U 1 1 5E56DD11
+P 5850 3000
+F 0 "D5" V 5804 3079 50  0000 L CNN
+F 1 "1N4148" V 5895 3079 50  0000 L CNN
+F 2 "Keebio-Parts:D_SOD123" H 5850 2825 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5850 3000 50  0001 C CNN
+	1    5850 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW20
+U 1 1 5E56F765
+P 8250 2850
+F 0 "SW20" H 8250 3135 50  0000 C CNN
+F 1 "SW_Push" H 8250 3044 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 8250 3050 50  0001 C CNN
+F 3 "~" H 8250 3050 50  0001 C CNN
+	1    8250 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D19
+U 1 1 5E56F76B
+P 8050 3000
+F 0 "D19" V 8004 3079 50  0000 L CNN
+F 1 "1N4148" V 8095 3079 50  0000 L CNN
+F 2 "Keebio-Parts:D_SOD123" H 8050 2825 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8050 3000 50  0001 C CNN
+	1    8050 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW24
+U 1 1 5E5718E8
+P 8800 2850
+F 0 "SW24" H 8800 3135 50  0000 C CNN
+F 1 "SW_Push" H 8800 3044 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 8800 3050 50  0001 C CNN
+F 3 "~" H 8800 3050 50  0001 C CNN
+	1    8800 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D23
+U 1 1 5E5718EE
+P 8600 3000
+F 0 "D23" V 8554 3079 50  0000 L CNN
+F 1 "1N4148" V 8645 3079 50  0000 L CNN
+F 2 "Keebio-Parts:D_SOD123" H 8600 2825 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8600 3000 50  0001 C CNN
+	1    8600 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW21
+U 1 1 5E59E174
+P 8250 3600
+F 0 "SW21" H 8250 3885 50  0000 C CNN
+F 1 "SW_Push" H 8250 3794 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 8250 3800 50  0001 C CNN
+F 3 "~" H 8250 3800 50  0001 C CNN
+	1    8250 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D20
+U 1 1 5E59E17A
+P 8050 3750
+F 0 "D20" V 8004 3829 50  0000 L CNN
+F 1 "1N4148" V 8095 3829 50  0000 L CNN
+F 2 "Keebio-Parts:D_SOD123" H 8050 3575 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8050 3750 50  0001 C CNN
+	1    8050 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW35
+U 1 1 5E59E181
+P 10450 3600
+F 0 "SW35" H 10450 3885 50  0000 C CNN
+F 1 "SW_Push" H 10450 3794 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 10450 3800 50  0001 C CNN
+F 3 "~" H 10450 3800 50  0001 C CNN
+	1    10450 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D34
+U 1 1 5E59E187
+P 10250 3750
+F 0 "D34" V 10204 3829 50  0000 L CNN
+F 1 "1N4148" V 10295 3829 50  0000 L CNN
+F 2 "Keebio-Parts:D_SOD123" H 10250 3575 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10250 3750 50  0001 C CNN
+	1    10250 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW7
+U 1 1 5E59E18E
+P 6050 3600
+F 0 "SW7" H 6050 3885 50  0000 C CNN
+F 1 "SW_Push" H 6050 3794 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 6050 3800 50  0001 C CNN
+F 3 "~" H 6050 3800 50  0001 C CNN
+	1    6050 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D6
+U 1 1 5E59E194
+P 5850 3750
+F 0 "D6" V 5804 3829 50  0000 L CNN
+F 1 "1N4148" V 5895 3829 50  0000 L CNN
+F 2 "Keebio-Parts:D_SOD123" H 5850 3575 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5850 3750 50  0001 C CNN
+	1    5850 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW17
+U 1 1 5E59E19B
+P 7700 3600
+F 0 "SW17" H 7700 3885 50  0000 C CNN
+F 1 "SW_Push" H 7700 3794 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 7700 3800 50  0001 C CNN
+F 3 "~" H 7700 3800 50  0001 C CNN
+	1    7700 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D16
+U 1 1 5E59E1A1
+P 7500 3750
+F 0 "D16" V 7454 3829 50  0000 L CNN
+F 1 "1N4148" V 7545 3829 50  0000 L CNN
+F 2 "Keebio-Parts:D_SOD123" H 7500 3575 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7500 3750 50  0001 C CNN
+	1    7500 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW10
+U 1 1 5E59E1A8
+P 6600 3600
+F 0 "SW10" H 6600 3885 50  0000 C CNN
+F 1 "SW_Push" H 6600 3794 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 6600 3800 50  0001 C CNN
+F 3 "~" H 6600 3800 50  0001 C CNN
+	1    6600 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D9
+U 1 1 5E59E1AE
+P 6400 3750
+F 0 "D9" V 6354 3829 50  0000 L CNN
+F 1 "1N4148" V 6445 3829 50  0000 L CNN
+F 2 "Keebio-Parts:D_SOD123" H 6400 3575 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6400 3750 50  0001 C CNN
+	1    6400 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW32
+U 1 1 5E59E1B5
+P 9900 3600
+F 0 "SW32" H 9900 3885 50  0000 C CNN
+F 1 "SW_Push" H 9900 3794 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 9900 3800 50  0001 C CNN
+F 3 "~" H 9900 3800 50  0001 C CNN
+	1    9900 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D31
+U 1 1 5E59E1BB
+P 9700 3750
+F 0 "D31" V 9654 3829 50  0000 L CNN
+F 1 "1N4148" V 9745 3829 50  0000 L CNN
+F 2 "Keebio-Parts:D_SOD123" H 9700 3575 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9700 3750 50  0001 C CNN
+	1    9700 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW4
+U 1 1 5E59E1C2
+P 5500 3600
+F 0 "SW4" H 5500 3885 50  0000 C CNN
+F 1 "SW_Push" H 5500 3794 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 5500 3800 50  0001 C CNN
+F 3 "~" H 5500 3800 50  0001 C CNN
+	1    5500 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D3
+U 1 1 5E59E1C8
+P 5300 3750
+F 0 "D3" V 5254 3829 50  0000 L CNN
+F 1 "1N4148" V 5345 3829 50  0000 L CNN
+F 2 "Keebio-Parts:D_SOD123" H 5300 3575 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5300 3750 50  0001 C CNN
+	1    5300 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW25
+U 1 1 5E59E1CF
+P 8800 3600
+F 0 "SW25" H 8800 3885 50  0000 C CNN
+F 1 "SW_Push" H 8800 3794 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 8800 3800 50  0001 C CNN
+F 3 "~" H 8800 3800 50  0001 C CNN
+	1    8800 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D24
+U 1 1 5E59E1D5
+P 8600 3750
+F 0 "D24" V 8554 3829 50  0000 L CNN
+F 1 "1N4148" V 8645 3829 50  0000 L CNN
+F 2 "Keebio-Parts:D_SOD123" H 8600 3575 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8600 3750 50  0001 C CNN
+	1    8600 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW13
+U 1 1 5E59E1DC
+P 7150 3600
+F 0 "SW13" H 7150 3885 50  0000 C CNN
+F 1 "SW_Push" H 7150 3794 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 7150 3800 50  0001 C CNN
+F 3 "~" H 7150 3800 50  0001 C CNN
+	1    7150 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D12
+U 1 1 5E59E1E2
+P 6950 3750
+F 0 "D12" V 6904 3829 50  0000 L CNN
+F 1 "1N4148" V 6995 3829 50  0000 L CNN
+F 2 "Keebio-Parts:D_SOD123" H 6950 3575 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6950 3750 50  0001 C CNN
+	1    6950 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW29
+U 1 1 5E59E1E9
+P 9350 3600
+F 0 "SW29" H 9350 3885 50  0000 C CNN
+F 1 "SW_Push" H 9350 3794 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 9350 3800 50  0001 C CNN
+F 3 "~" H 9350 3800 50  0001 C CNN
+	1    9350 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D28
+U 1 1 5E59E1EF
+P 9150 3750
+F 0 "D28" V 9104 3829 50  0000 L CNN
+F 1 "1N4148" V 9195 3829 50  0000 L CNN
+F 2 "Keebio-Parts:D_SOD123" H 9150 3575 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9150 3750 50  0001 C CNN
+	1    9150 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW14
+U 1 1 5E5FED8C
+P 7150 4350
+F 0 "SW14" H 7150 4635 50  0000 C CNN
+F 1 "SW_Push" H 7150 4544 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 7150 4550 50  0001 C CNN
+F 3 "~" H 7150 4550 50  0001 C CNN
+	1    7150 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D13
+U 1 1 5E5FED92
+P 6950 4500
+F 0 "D13" V 6904 4579 50  0000 L CNN
+F 1 "1N4148" V 6995 4579 50  0000 L CNN
+F 2 "Keebio-Parts:D_SOD123" H 6950 4325 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6950 4500 50  0001 C CNN
+	1    6950 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW26
+U 1 1 5E5FEDA6
+P 8800 4350
+F 0 "SW26" H 8800 4635 50  0000 C CNN
+F 1 "SW_Push" H 8800 4544 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 8800 4550 50  0001 C CNN
+F 3 "~" H 8800 4550 50  0001 C CNN
+	1    8800 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D25
+U 1 1 5E5FEDAC
+P 8600 4500
+F 0 "D25" V 8554 4579 50  0000 L CNN
+F 1 "1N4148" V 8645 4579 50  0000 L CNN
+F 2 "Keebio-Parts:D_SOD123" H 8600 4325 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8600 4500 50  0001 C CNN
+	1    8600 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5E641B5F
+P 3450 5750
+F 0 "#PWR0101" H 3450 5500 50  0001 C CNN
+F 1 "GND" H 3455 5577 50  0000 C CNN
+F 2 "" H 3450 5750 50  0001 C CNN
+F 3 "" H 3450 5750 50  0001 C CNN
+	1    3450 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0102
+U 1 1 5E646A4D
+P 3500 1550
+F 0 "#PWR0102" H 3500 1400 50  0001 C CNN
+F 1 "VCC" H 3517 1723 50  0000 C CNN
+F 2 "" H 3500 1550 50  0001 C CNN
+F 3 "" H 3500 1550 50  0001 C CNN
+	1    3500 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 1550 3500 1800
+$Comp
+L Device:C C3
+U 1 1 5E66BD09
+P 1850 2850
+F 0 "C3" H 1965 2896 50  0000 L CNN
+F 1 "22p" H 1965 2805 50  0000 L CNN
+F 2 "Keebio-Parts:C_0603" H 1888 2700 50  0001 C CNN
+F 3 "~" H 1850 2850 50  0001 C CNN
+	1    1850 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 5E66C86C
+P 2400 2850
+F 0 "C6" H 2515 2896 50  0000 L CNN
+F 1 "22p" H 2515 2805 50  0000 L CNN
+F 2 "Keebio-Parts:C_0603" H 2438 2700 50  0001 C CNN
+F 3 "~" H 2400 2850 50  0001 C CNN
+	1    2400 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 2600 2400 2700
+Wire Wire Line
+	2300 2600 2400 2600
+$Comp
+L Device:Crystal_GND2 Y1
+U 1 1 5E685F9B
+P 2150 2600
+F 0 "Y1" H 2150 2868 50  0000 C CNN
+F 1 "Crystal_GND2" H 2150 2777 50  0000 C CNN
+F 2 "Keebio-Parts:Crystal_SMD_3225-4pin_3.2x2.5mm" H 2150 2600 50  0001 C CNN
+F 3 "~" H 2150 2600 50  0001 C CNN
+	1    2150 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 3050 1850 3000
+Wire Wire Line
+	2400 3000 2400 3050
+Wire Wire Line
+	2400 3050 2150 3050
+Wire Wire Line
+	2150 2800 2150 3050
+Connection ~ 2150 3050
+Wire Wire Line
+	2150 3050 1850 3050
+$Comp
+L power:VCC #PWR0103
+U 1 1 5E6DA44B
+P 1250 1100
+F 0 "#PWR0103" H 1250 950 50  0001 C CNN
+F 1 "VCC" H 1267 1273 50  0000 C CNN
+F 2 "" H 1250 1100 50  0001 C CNN
+F 3 "" H 1250 1100 50  0001 C CNN
+	1    1250 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5E6DE97C
+P 1250 1600
+F 0 "#PWR0104" H 1250 1350 50  0001 C CNN
+F 1 "GND" H 1255 1427 50  0000 C CNN
+F 2 "" H 1250 1600 50  0001 C CNN
+F 3 "" H 1250 1600 50  0001 C CNN
+	1    1250 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5E6DF89E
+P 1250 1350
+F 0 "C1" H 1365 1396 50  0000 L CNN
+F 1 ".1u" H 1365 1305 50  0000 L CNN
+F 2 "Keebio-Parts:C_0603" H 1288 1200 50  0001 C CNN
+F 3 "~" H 1250 1350 50  0001 C CNN
+	1    1250 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5E6E0C1C
+P 1700 1350
+F 0 "C2" H 1815 1396 50  0000 L CNN
+F 1 ".1u" H 1815 1305 50  0000 L CNN
+F 2 "Keebio-Parts:C_0603" H 1738 1200 50  0001 C CNN
+F 3 "~" H 1700 1350 50  0001 C CNN
+	1    1700 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 5E6E12AB
+P 2100 1350
+F 0 "C5" H 2215 1396 50  0000 L CNN
+F 1 ".1u" H 2215 1305 50  0000 L CNN
+F 2 "Keebio-Parts:C_0603" H 2138 1200 50  0001 C CNN
+F 3 "~" H 2100 1350 50  0001 C CNN
+	1    2100 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C7
+U 1 1 5E6E1957
+P 2550 1350
+F 0 "C7" H 2665 1396 50  0000 L CNN
+F 1 ".1u" H 2665 1305 50  0000 L CNN
+F 2 "Keebio-Parts:C_0603" H 2588 1200 50  0001 C CNN
+F 3 "~" H 2550 1350 50  0001 C CNN
+	1    2550 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C8
+U 1 1 5E6E1D51
+P 2950 1350
+F 0 "C8" H 3065 1396 50  0000 L CNN
+F 1 "4.7u" H 3065 1305 50  0000 L CNN
+F 2 "Keebio-Parts:C_0603" H 2988 1200 50  0001 C CNN
+F 3 "~" H 2950 1350 50  0001 C CNN
+	1    2950 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 1100 1250 1200
+Wire Wire Line
+	2950 1200 2550 1200
+Connection ~ 1250 1200
+Connection ~ 1700 1200
+Wire Wire Line
+	1700 1200 1250 1200
+Connection ~ 2100 1200
+Wire Wire Line
+	2100 1200 1700 1200
+Connection ~ 2550 1200
+Wire Wire Line
+	2550 1200 2100 1200
+Wire Wire Line
+	2950 1500 2550 1500
+Connection ~ 1700 1500
+Wire Wire Line
+	1700 1500 1250 1500
+Connection ~ 2100 1500
+Wire Wire Line
+	2100 1500 1700 1500
+Connection ~ 2550 1500
+Wire Wire Line
+	2550 1500 2100 1500
+Wire Wire Line
+	1250 1600 1250 1500
+Connection ~ 1250 1500
+$Comp
+L Device:R R5
+U 1 1 5E6F6C91
+P 2800 1950
+F 0 "R5" V 2593 1950 50  0000 C CNN
+F 1 "10k" V 2684 1950 50  0000 C CNN
+F 2 "Keebio-Parts:R_0805" V 2730 1950 50  0001 C CNN
+F 3 "~" H 2800 1950 50  0001 C CNN
+	1    2800 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5E70403A
+P 2300 2200
+F 0 "SW1" H 2300 2485 50  0000 C CNN
+F 1 "SW_Push" H 2300 2394 50  0000 C CNN
+F 2 "Keebio-Parts:SW_SPST_TL3342" H 2300 2400 50  0001 C CNN
+F 3 "~" H 2300 2400 50  0001 C CNN
+	1    2300 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5E70B20D
+P 2050 2200
+F 0 "#PWR0105" H 2050 1950 50  0001 C CNN
+F 1 "GND" V 2055 2072 50  0000 R CNN
+F 2 "" H 2050 2200 50  0001 C CNN
+F 3 "" H 2050 2200 50  0001 C CNN
+	1    2050 2200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2050 2200 2100 2200
+$Comp
+L Device:R R6
+U 1 1 5E719D35
+P 4400 4300
+F 0 "R6" V 4193 4300 50  0000 C CNN
+F 1 "10k" V 4284 4300 50  0000 C CNN
+F 2 "Keebio-Parts:R_0805" V 4330 4300 50  0001 C CNN
+F 3 "~" H 4400 4300 50  0001 C CNN
+	1    4400 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5E71CB56
+P 4550 4450
+F 0 "#PWR0106" H 4550 4200 50  0001 C CNN
+F 1 "GND" V 4555 4322 50  0000 R CNN
+F 2 "" H 4550 4450 50  0001 C CNN
+F 3 "" H 4550 4450 50  0001 C CNN
+	1    4550 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 4450 4550 4300
+Wire Wire Line
+	4250 4300 4100 4300
+$Comp
+L Device:R R2
+U 1 1 5E735E02
+P 1250 2400
+F 0 "R2" V 1043 2400 50  0000 C CNN
+F 1 "5.1k" V 1134 2400 50  0000 C CNN
+F 2 "Keebio-Parts:R_0805" V 1180 2400 50  0001 C CNN
+F 3 "~" H 1250 2400 50  0001 C CNN
+	1    1250 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5E7372BE
+P 1050 2400
+F 0 "R1" V 843 2400 50  0000 C CNN
+F 1 "5.1k" V 934 2400 50  0000 C CNN
+F 2 "Keebio-Parts:R_0805" V 980 2400 50  0001 C CNN
+F 3 "~" H 1050 2400 50  0001 C CNN
+	1    1050 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 5E738962
+P 1150 2600
+F 0 "#PWR0107" H 1150 2350 50  0001 C CNN
+F 1 "GND" V 1155 2472 50  0000 R CNN
+F 2 "" H 1150 2600 50  0001 C CNN
+F 3 "" H 1150 2600 50  0001 C CNN
+	1    1150 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 2550 1150 2550
+Wire Wire Line
+	1150 2550 1150 2600
+Wire Wire Line
+	1250 2550 1150 2550
+Connection ~ 1150 2550
+Wire Wire Line
+	2800 3300 2900 3300
+$Comp
+L power:GND #PWR0108
+U 1 1 5E78353A
+P 1650 5250
+F 0 "#PWR0108" H 1650 5000 50  0001 C CNN
+F 1 "GND" H 1655 5077 50  0000 C CNN
+F 2 "" H 1650 5250 50  0001 C CNN
+F 3 "" H 1650 5250 50  0001 C CNN
+	1    1650 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0109
+U 1 1 5E78BC28
+P 2750 2950
+F 0 "#PWR0109" H 2750 2800 50  0001 C CNN
+F 1 "VCC" H 2767 3123 50  0000 C CNN
+F 2 "" H 2750 2950 50  0001 C CNN
+F 3 "" H 2750 2950 50  0001 C CNN
+	1    2750 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 5500 3500 5750
+$Comp
+L power:GND #PWR0110
+U 1 1 5E7AED76
+P 1850 3050
+F 0 "#PWR0110" H 1850 2800 50  0001 C CNN
+F 1 "GND" H 1855 2877 50  0000 C CNN
+F 2 "" H 1850 3050 50  0001 C CNN
+F 3 "" H 1850 3050 50  0001 C CNN
+	1    1850 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 5E7BEC4B
+P 1900 5150
+F 0 "C4" H 2015 5196 50  0000 L CNN
+F 1 "1u" H 2015 5105 50  0000 L CNN
+F 2 "Keebio-Parts:C_0603" H 1938 5000 50  0001 C CNN
+F 3 "~" H 1900 5150 50  0001 C CNN
+	1    1900 5150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3400 5500 3400 5750
+Wire Wire Line
+	3400 5750 3450 5750
+$Comp
+L Device:R R4
+U 1 1 5E81C352
+P 2550 3350
+F 0 "R4" V 2343 3350 50  0000 C CNN
+F 1 "22" V 2434 3350 50  0000 C CNN
+F 2 "Keebio-Parts:R_0805" V 2480 3350 50  0001 C CNN
+F 3 "~" H 2550 3350 50  0001 C CNN
+	1    2550 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5E81CF91
+P 2550 3200
+F 0 "R3" V 2343 3200 50  0000 C CNN
+F 1 "22" V 2434 3200 50  0000 C CNN
+F 2 "Keebio-Parts:R_0805" V 2480 3200 50  0001 C CNN
+F 3 "~" H 2550 3200 50  0001 C CNN
+	1    2550 3200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3600 1900 3600 1800
+Wire Wire Line
+	3600 1800 3500 1800
+Wire Wire Line
+	3400 1800 3400 1900
+Connection ~ 3500 1800
+Wire Wire Line
+	3500 1800 3500 1900
+Wire Wire Line
+	3500 1800 3400 1800
+Wire Wire Line
+	2700 3200 2900 3200
+Text Label 2750 3200 0    50   ~ 0
+D+
+Text Label 2800 3300 0    50   ~ 0
+D-
+$Comp
+L Type-C:HRO-TYPE-C-31-M-12 USB1
+U 1 1 5E818FF8
+P 1550 4500
+F 0 "USB1" H 1383 5297 60  0000 C CNN
+F 1 "HRO-TYPE-C-31-M-12" H 1383 5191 60  0000 C CNN
+F 2 "Type-C:HRO-TYPE-C-31-M-12-HandSoldering" H 1550 4500 60  0001 C CNN
+F 3 "" H 1550 4500 60  0001 C CNN
+	1    1550 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 5150 1650 5050
+Wire Wire Line
+	1650 4350 1750 4350
+Wire Wire Line
+	1750 4350 1750 4550
+Wire Wire Line
+	1750 4550 1650 4550
+Wire Wire Line
+	1900 4650 1900 4450
+Wire Wire Line
+	1900 4450 1650 4450
+Wire Wire Line
+	1900 4650 1650 4650
+$Comp
+L power:GND #PWR0111
+U 1 1 5E8CC5A0
+P 1950 3950
+F 0 "#PWR0111" H 1950 3700 50  0001 C CNN
+F 1 "GND" H 1955 3777 50  0000 C CNN
+F 2 "" H 1950 3950 50  0001 C CNN
+F 3 "" H 1950 3950 50  0001 C CNN
+	1    1950 3950
+	1    0    0    -1  
+$EndComp
+Text GLabel 4100 2500 2    50   Input ~ 0
+row0
+Text GLabel 5100 2400 0    50   Input ~ 0
+row0
+Text GLabel 4100 3800 2    50   Input ~ 0
+row1
+Text GLabel 4100 4700 2    50   Input ~ 0
+row2
+Text GLabel 4100 3100 2    50   Input ~ 0
+row3
+Text GLabel 5100 3150 0    50   Input ~ 0
+row1
+Text GLabel 5100 3900 0    50   Input ~ 0
+row2
+Text GLabel 10100 1700 1    50   Input ~ 0
+col8
+Text GLabel 9000 1700 1    50   Input ~ 0
+col6
+Text GLabel 8450 1700 1    50   Input ~ 0
+col5
+Text GLabel 7900 1700 1    50   Input ~ 0
+col4
+Text GLabel 7350 1700 1    50   Input ~ 0
+col3
+Text GLabel 6800 1700 1    50   Input ~ 0
+col2
+Text GLabel 6250 1700 1    50   Input ~ 0
+col1
+Text GLabel 5700 1700 1    50   Input ~ 0
+col0
+Text GLabel 5100 4650 0    50   Input ~ 0
+row3
+$Comp
+L Diode:1N4148 D29
+U 1 1 5E589D24
+P 9700 2250
+F 0 "D29" V 9654 2329 50  0000 L CNN
+F 1 "1N4148" V 9745 2329 50  0000 L CNN
+F 2 "Keebio-Parts:D_SOD123" H 9700 2075 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9700 2250 50  0001 C CNN
+	1    9700 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW30
+U 1 1 5E589D1E
+P 9900 2100
+F 0 "SW30" H 9900 2385 50  0000 C CNN
+F 1 "SW_Push" H 9900 2294 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 9900 2300 50  0001 C CNN
+F 3 "~" H 9900 2300 50  0001 C CNN
+	1    9900 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D22
+U 1 1 5E589D17
+P 8600 2250
+F 0 "D22" V 8554 2329 50  0000 L CNN
+F 1 "1N4148" V 8645 2329 50  0000 L CNN
+F 2 "Keebio-Parts:D_SOD123" H 8600 2075 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8600 2250 50  0001 C CNN
+	1    8600 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW23
+U 1 1 5E589D11
+P 8800 2100
+F 0 "SW23" H 8800 2385 50  0000 C CNN
+F 1 "SW_Push" H 8800 2294 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 8800 2300 50  0001 C CNN
+F 3 "~" H 8800 2300 50  0001 C CNN
+	1    8800 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D4
+U 1 1 5E589D0A
+P 5850 2250
+F 0 "D4" V 5804 2329 50  0000 L CNN
+F 1 "1N4148" V 5895 2329 50  0000 L CNN
+F 2 "Keebio-Parts:D_SOD123" H 5850 2075 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5850 2250 50  0001 C CNN
+	1    5850 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW5
+U 1 1 5E589D04
+P 6050 2100
+F 0 "SW5" H 6050 2385 50  0000 C CNN
+F 1 "SW_Push" H 6050 2294 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 6050 2300 50  0001 C CNN
+F 3 "~" H 6050 2300 50  0001 C CNN
+	1    6050 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW2
+U 1 1 5E589CF7
+P 5500 2100
+F 0 "SW2" H 5500 2385 50  0000 C CNN
+F 1 "SW_Push" H 5500 2294 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 5500 2300 50  0001 C CNN
+F 3 "~" H 5500 2300 50  0001 C CNN
+	1    5500 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D10
+U 1 1 5E589CF0
+P 6950 2250
+F 0 "D10" V 6904 2329 50  0000 L CNN
+F 1 "1N4148" V 6995 2329 50  0000 L CNN
+F 2 "Keebio-Parts:D_SOD123" H 6950 2075 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6950 2250 50  0001 C CNN
+	1    6950 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW11
+U 1 1 5E589CEA
+P 7150 2100
+F 0 "SW11" H 7150 2385 50  0000 C CNN
+F 1 "SW_Push" H 7150 2294 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 7150 2300 50  0001 C CNN
+F 3 "~" H 7150 2300 50  0001 C CNN
+	1    7150 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D32
+U 1 1 5E589CE3
+P 10250 2250
+F 0 "D32" V 10204 2329 50  0000 L CNN
+F 1 "1N4148" V 10295 2329 50  0000 L CNN
+F 2 "Keebio-Parts:D_SOD123" H 10250 2075 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10250 2250 50  0001 C CNN
+	1    10250 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW33
+U 1 1 5E589CDD
+P 10450 2100
+F 0 "SW33" H 10450 2385 50  0000 C CNN
+F 1 "SW_Push" H 10450 2294 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 10450 2300 50  0001 C CNN
+F 3 "~" H 10450 2300 50  0001 C CNN
+	1    10450 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D14
+U 1 1 5E589CD6
+P 7500 2250
+F 0 "D14" V 7454 2329 50  0000 L CNN
+F 1 "1N4148" V 7545 2329 50  0000 L CNN
+F 2 "Keebio-Parts:D_SOD123" H 7500 2075 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7500 2250 50  0001 C CNN
+	1    7500 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW15
+U 1 1 5E589CD0
+P 7700 2100
+F 0 "SW15" H 7700 2385 50  0000 C CNN
+F 1 "SW_Push" H 7700 2294 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 7700 2300 50  0001 C CNN
+F 3 "~" H 7700 2300 50  0001 C CNN
+	1    7700 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D26
+U 1 1 5E589CC9
+P 9150 2250
+F 0 "D26" V 9104 2329 50  0000 L CNN
+F 1 "1N4148" V 9195 2329 50  0000 L CNN
+F 2 "Keebio-Parts:D_SOD123" H 9150 2075 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9150 2250 50  0001 C CNN
+	1    9150 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW27
+U 1 1 5E589CC3
+P 9350 2100
+F 0 "SW27" H 9350 2385 50  0000 C CNN
+F 1 "SW_Push" H 9350 2294 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 9350 2300 50  0001 C CNN
+F 3 "~" H 9350 2300 50  0001 C CNN
+	1    9350 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D18
+U 1 1 5E589CAF
+P 8050 2250
+F 0 "D18" V 8004 2329 50  0000 L CNN
+F 1 "1N4148" V 8095 2329 50  0000 L CNN
+F 2 "Keebio-Parts:D_SOD123" H 8050 2075 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8050 2250 50  0001 C CNN
+	1    8050 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW19
+U 1 1 5E589CA9
+P 8250 2100
+F 0 "SW19" H 8250 2385 50  0000 C CNN
+F 1 "SW_Push" H 8250 2294 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 8250 2300 50  0001 C CNN
+F 3 "~" H 8250 2300 50  0001 C CNN
+	1    8250 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW8
+U 1 1 5E589CB6
+P 6600 2100
+F 0 "SW8" H 6600 2385 50  0000 C CNN
+F 1 "SW_Push" H 6600 2294 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 6600 2300 50  0001 C CNN
+F 3 "~" H 6600 2300 50  0001 C CNN
+	1    6600 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D7
+U 1 1 5E589CBC
+P 6400 2250
+F 0 "D7" V 6354 2329 50  0000 L CNN
+F 1 "1N4148" V 6445 2329 50  0000 L CNN
+F 2 "Keebio-Parts:D_SOD123" H 6400 2075 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6400 2250 50  0001 C CNN
+	1    6400 2250
+	0    1    1    0   
+$EndComp
+Text GLabel 9550 1700 1    50   Input ~ 0
+col7
+Wire Wire Line
+	5100 2400 5300 2400
+Connection ~ 5300 2400
+Wire Wire Line
+	5300 2400 5850 2400
+Connection ~ 5850 2400
+Wire Wire Line
+	5850 2400 6400 2400
+Connection ~ 6400 2400
+Wire Wire Line
+	6400 2400 6950 2400
+Connection ~ 6950 2400
+Wire Wire Line
+	6950 2400 7500 2400
+Connection ~ 7500 2400
+Wire Wire Line
+	7500 2400 8050 2400
+Connection ~ 8050 2400
+Wire Wire Line
+	8050 2400 8600 2400
+Connection ~ 8600 2400
+Wire Wire Line
+	8600 2400 9150 2400
+Connection ~ 9150 2400
+Wire Wire Line
+	9150 2400 9700 2400
+Connection ~ 9700 2400
+Wire Wire Line
+	9700 2400 10250 2400
+Wire Wire Line
+	5700 2100 5700 1700
+Wire Wire Line
+	6250 2100 6250 1700
+Wire Wire Line
+	6800 2100 6800 1700
+Wire Wire Line
+	7350 2100 7350 1700
+Wire Wire Line
+	7900 2100 7900 1700
+Wire Wire Line
+	8450 2100 8450 1700
+Wire Wire Line
+	9000 2100 9000 1700
+Wire Wire Line
+	10100 2100 10100 1700
+Wire Wire Line
+	10650 2100 10650 1700
+Wire Wire Line
+	5700 2850 5700 2100
+Connection ~ 5700 2100
+Wire Wire Line
+	6250 2850 6250 2100
+Connection ~ 6250 2100
+Wire Wire Line
+	6800 2850 6800 2100
+Connection ~ 6800 2100
+Wire Wire Line
+	7350 2850 7350 2100
+Connection ~ 7350 2100
+Wire Wire Line
+	7900 2850 7900 2100
+Connection ~ 7900 2100
+Wire Wire Line
+	8450 2850 8450 2100
+Connection ~ 8450 2100
+Wire Wire Line
+	9000 2850 9000 2100
+Connection ~ 9000 2100
+Wire Wire Line
+	9550 2850 9550 2100
+Wire Wire Line
+	9550 1700 9550 2100
+Connection ~ 9550 2100
+Wire Wire Line
+	10100 2100 10100 2850
+Connection ~ 10100 2100
+Wire Wire Line
+	10650 2850 10650 2100
+Connection ~ 10650 2100
+Wire Wire Line
+	5100 3150 5300 3150
+Connection ~ 5300 3150
+Wire Wire Line
+	5300 3150 5850 3150
+Connection ~ 5850 3150
+Wire Wire Line
+	5850 3150 6400 3150
+Connection ~ 6400 3150
+Wire Wire Line
+	6400 3150 6950 3150
+Connection ~ 6950 3150
+Wire Wire Line
+	6950 3150 7500 3150
+Connection ~ 7500 3150
+Wire Wire Line
+	7500 3150 8050 3150
+Connection ~ 8050 3150
+Wire Wire Line
+	8050 3150 8600 3150
+Connection ~ 8600 3150
+Wire Wire Line
+	8600 3150 9150 3150
+Connection ~ 9150 3150
+Wire Wire Line
+	9150 3150 9700 3150
+Connection ~ 9700 3150
+Wire Wire Line
+	9700 3150 10250 3150
+Wire Wire Line
+	5700 3600 5700 2850
+Connection ~ 5700 2850
+Wire Wire Line
+	6250 3600 6250 2850
+Connection ~ 6250 2850
+Wire Wire Line
+	6800 3600 6800 2850
+Connection ~ 6800 2850
+Wire Wire Line
+	7350 3600 7350 2850
+Connection ~ 7350 2850
+Wire Wire Line
+	7900 3600 7900 2850
+Connection ~ 7900 2850
+Wire Wire Line
+	8450 2850 8450 3600
+Connection ~ 8450 2850
+Wire Wire Line
+	9000 3600 9000 2850
+Connection ~ 9000 2850
+Wire Wire Line
+	9550 2850 9550 3600
+Connection ~ 9550 2850
+Wire Wire Line
+	10100 3600 10100 2850
+Connection ~ 10100 2850
+Wire Wire Line
+	10650 2850 10650 3600
+Connection ~ 10650 2850
+Wire Wire Line
+	5100 3900 5300 3900
+Connection ~ 5300 3900
+Wire Wire Line
+	5300 3900 5850 3900
+Connection ~ 5850 3900
+Wire Wire Line
+	5850 3900 6400 3900
+Connection ~ 6400 3900
+Wire Wire Line
+	6400 3900 6950 3900
+Connection ~ 6950 3900
+Wire Wire Line
+	6950 3900 7500 3900
+Connection ~ 7500 3900
+Connection ~ 8600 3900
+Wire Wire Line
+	8600 3900 9150 3900
+Connection ~ 9150 3900
+Wire Wire Line
+	9150 3900 9700 3900
+Connection ~ 9700 3900
+Wire Wire Line
+	9700 3900 10250 3900
+Connection ~ 6950 4650
+Wire Wire Line
+	5100 4650 6950 4650
+Connection ~ 8050 3900
+Wire Wire Line
+	8050 3900 8600 3900
+Wire Wire Line
+	7500 3900 8050 3900
+$Comp
+L Switch:SW_Push SW22
+U 1 1 5E51CE66
+P 8250 4350
+F 0 "SW22" H 8250 4635 50  0000 C CNN
+F 1 "SW_Push" H 8250 4544 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-2U-StabFlip" H 8250 4550 50  0001 C CNN
+F 3 "~" H 8250 4550 50  0001 C CNN
+	1    8250 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW18
+U 1 1 5E51F24F
+P 7700 4350
+F 0 "SW18" H 7700 4635 50  0000 C CNN
+F 1 "SW_Push" H 7700 4544 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-2U-StabFlip" H 7700 4550 50  0001 C CNN
+F 3 "~" H 7700 4550 50  0001 C CNN
+	1    7700 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D21
+U 1 1 5E52074C
+P 8050 4500
+F 0 "D21" V 8004 4579 50  0000 L CNN
+F 1 "1N4148" V 8095 4579 50  0000 L CNN
+F 2 "Keebio-Parts:D_SOD123" H 8050 4325 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8050 4500 50  0001 C CNN
+	1    8050 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N4148 D17
+U 1 1 5E5235AF
+P 7500 4500
+F 0 "D17" V 7454 4579 50  0000 L CNN
+F 1 "1N4148" V 7545 4579 50  0000 L CNN
+F 2 "Keebio-Parts:D_SOD123" H 7500 4325 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7500 4500 50  0001 C CNN
+	1    7500 4500
+	0    1    1    0   
+$EndComp
+Connection ~ 8050 4650
+Wire Wire Line
+	8050 4650 8600 4650
+Connection ~ 7500 4650
+Text GLabel 4100 5100 2    50   Input ~ 0
+col9
+Text GLabel 4100 3600 2    50   Input ~ 0
+col8
+Text GLabel 10650 1700 1    50   Input ~ 0
+col9
+Text GLabel 4100 3200 2    50   Input ~ 0
+col7
+Text GLabel 4100 2600 2    50   Input ~ 0
+col5
+Text GLabel 4100 2300 2    50   Input ~ 0
+col4
+Text GLabel 4100 2200 2    50   Input ~ 0
+col2
+Text GLabel 4100 4900 2    50   Input ~ 0
+col1
+Text GLabel 4100 2400 2    50   Input ~ 0
+col3
+Connection ~ 3450 5750
+Wire Wire Line
+	3450 5750 3500 5750
+Wire Wire Line
+	2900 2600 2400 2600
+Connection ~ 2400 2600
+Wire Wire Line
+	1850 2600 2000 2600
+Wire Wire Line
+	1850 2600 1850 2700
+Wire Wire Line
+	2500 2200 2800 2200
+$Comp
+L ErgoBoard-rescue:ATmega32U4-AU-MCU_Microchip_ATmega-brutal33-rescue U1
+U 1 1 5E4EC218
+P 3500 3700
+F 0 "U1" H 3500 1811 50  0000 C CNN
+F 1 "ATmega32U4-AU" H 3500 1720 50  0000 C CNN
+F 2 "Keebio-Parts:ATMEGA32U4-AU" H 3500 3700 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 3500 3700 50  0001 C CNN
+	1    3500 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 2100 2800 2200
+Connection ~ 2800 2200
+Wire Wire Line
+	2800 2200 2900 2200
+Wire Wire Line
+	2800 1800 3400 1800
+Connection ~ 3400 1800
+Wire Wire Line
+	1650 5250 1650 5150
+Connection ~ 1650 5150
+Wire Wire Line
+	1750 5150 1650 5150
+Wire Wire Line
+	1850 2400 2900 2400
+Wire Wire Line
+	1850 2600 1850 2400
+Connection ~ 1850 2600
+Wire Wire Line
+	2750 2950 2750 3000
+Wire Wire Line
+	2750 3000 2900 3000
+$Comp
+L power:VCC #PWR0112
+U 1 1 5E892553
+P 2500 4900
+F 0 "#PWR0112" H 2500 4750 50  0001 C CNN
+F 1 "VCC" H 2517 5073 50  0000 C CNN
+F 2 "" H 2500 4900 50  0001 C CNN
+F 3 "" H 2500 4900 50  0001 C CNN
+	1    2500 4900
+	1    0    0    -1  
+$EndComp
+Text GLabel 2150 5150 2    50   Input ~ 0
+UCAP
+Wire Wire Line
+	2050 5150 2150 5150
+Text GLabel 2900 3500 0    50   Input ~ 0
+UCAP
+$Comp
+L Device:Polyfuse_Small F1
+U 1 1 5E9B2597
+P 2300 4950
+F 0 "F1" V 2246 4950 50  0000 C CNN
+F 1 "Polyfuse_Small" V 2186 4950 50  0001 C CNN
+F 2 "Keebio-Parts:Fuse_0805" H 2350 4750 50  0001 L CNN
+F 3 "~" H 2300 4950 50  0001 C CNN
+	1    2300 4950
+	0    1    1    0   
+$EndComp
+Text GLabel 1650 4850 2    50   Input ~ 0
+CC2
+Text GLabel 1650 4250 2    50   Input ~ 0
+CC1
+Text GLabel 1900 4650 2    50   Input ~ 0
+DN+
+Text GLabel 1750 4350 2    50   Input ~ 0
+DN-
+Wire Wire Line
+	2700 3350 2800 3350
+Wire Wire Line
+	2800 3350 2800 3300
+Connection ~ 1850 3050
+Text GLabel 2400 3200 0    50   Input ~ 0
+DN+
+Text GLabel 2400 3350 0    50   Input ~ 0
+DN-
+Text GLabel 1050 2250 1    50   Input ~ 0
+CC1
+Text GLabel 1250 2250 1    50   Input ~ 0
+CC2
+Wire Wire Line
+	1950 3950 1650 3950
+Wire Wire Line
+	1650 4050 1800 4050
+Wire Wire Line
+	1800 4050 1800 4200
+Wire Wire Line
+	1800 4200 2200 4200
+Wire Wire Line
+	2200 4200 2200 4950
+Wire Wire Line
+	1650 4950 2200 4950
+Connection ~ 2200 4950
+Wire Wire Line
+	2500 4900 2500 4950
+Wire Wire Line
+	2500 4950 2400 4950
+Text GLabel 4100 4600 2    50   Input ~ 0
+LED
+$Comp
+L Diode:1N4148 D1
+U 1 1 5E589CFD
+P 5300 2250
+F 0 "D1" V 5254 2329 50  0000 L CNN
+F 1 "1N4148" V 5345 2329 50  0000 L CNN
+F 2 "Keebio-Parts:D_SOD123" H 5300 2075 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5300 2250 50  0001 C CNN
+	1    5300 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR0113
+U 1 1 5ED77BDD
+P 3750 800
+F 0 "#PWR0113" H 3750 650 50  0001 C CNN
+F 1 "VCC" H 3767 973 50  0000 C CNN
+F 2 "" H 3750 800 50  0001 C CNN
+F 3 "" H 3750 800 50  0001 C CNN
+	1    3750 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0114
+U 1 1 5ED78EC9
+P 3750 1000
+F 0 "#PWR0114" H 3750 750 50  0001 C CNN
+F 1 "GND" H 3755 827 50  0000 C CNN
+F 2 "" H 3750 1000 50  0001 C CNN
+F 3 "" H 3750 1000 50  0001 C CNN
+	1    3750 1000
+	1    0    0    -1  
+$EndComp
+Text GLabel 3750 900  2    50   Input ~ 0
+LED
+NoConn ~ 4100 2900
+NoConn ~ 4100 4000
+NoConn ~ 4100 4400
+NoConn ~ 1650 4750
+NoConn ~ 1650 4150
+NoConn ~ 2900 2800
+Wire Wire Line
+	7900 3600 7900 4350
+Connection ~ 7900 3600
+Connection ~ 8450 3600
+Wire Wire Line
+	7500 4650 8050 4650
+Wire Wire Line
+	7050 4650 7500 4650
+Wire Wire Line
+	6950 4650 7500 4650
+Wire Wire Line
+	8450 3600 8450 4350
+$Comp
+L Connector:Conn_01x04_Female J2
+U 1 1 5E812D54
+P 4350 1450
+F 0 "J2" H 4242 1025 50  0000 C CNN
+F 1 "Conn_01x04_Female" H 4242 1116 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 4350 1450 50  0001 C CNN
+F 3 "~" H 4350 1450 50  0001 C CNN
+	1    4350 1450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female J1
+U 1 1 5E814467
+P 3550 900
+F 0 "J1" H 3442 575 50  0000 C CNN
+F 1 "Conn_01x03_Female" H 3442 666 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 3550 900 50  0001 C CNN
+F 3 "~" H 3550 900 50  0001 C CNN
+	1    3550 900 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D35
+U 1 1 5E856D42
+P 9100 4500
+F 0 "D35" V 9054 4579 50  0000 L CNN
+F 1 "1N4148" V 9145 4579 50  0000 L CNN
+F 2 "Keebio-Parts:D_SOD123" H 9100 4500 50  0001 C CNN
+F 3 "~" H 9100 4500 50  0001 C CNN
+	1    9100 4500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9100 4650 8600 4650
+Connection ~ 8600 4650
+Text GLabel 5750 1250 2    50   Input ~ 0
+SCK
+Text GLabel 5000 1250 1    50   Input ~ 0
+SDA
+$Comp
+L power:GND #PWR0115
+U 1 1 5E9BDC17
+P 4550 1550
+F 0 "#PWR0115" H 4550 1300 50  0001 C CNN
+F 1 "GND" H 4555 1377 50  0000 C CNN
+F 2 "" H 4550 1550 50  0001 C CNN
+F 3 "" H 4550 1550 50  0001 C CNN
+	1    4550 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0116
+U 1 1 5E9BEF64
+P 5250 850
+F 0 "#PWR0116" H 5250 700 50  0001 C CNN
+F 1 "VCC" V 5267 978 50  0000 L CNN
+F 2 "" H 5250 850 50  0001 C CNN
+F 3 "" H 5250 850 50  0001 C CNN
+	1    5250 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Rotary_Encoder_Switch SW36
+U 1 1 5EB12670
+P 9650 4300
+F 0 "SW36" H 9650 3933 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 9650 4024 50  0000 C CNN
+F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E_Vertical_H20mm_CircularMountingHoles" H 9500 4460 50  0001 C CNN
+F 3 "~" H 9650 4560 50  0001 C CNN
+	1    9650 4300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9550 4350 9500 4350
+Wire Wire Line
+	9100 4350 9200 4350
+Wire Wire Line
+	9350 4350 9350 4400
+$Comp
+L power:GND #PWR0117
+U 1 1 5EB4C705
+P 10250 4300
+F 0 "#PWR0117" H 10250 4050 50  0001 C CNN
+F 1 "GND" H 10255 4127 50  0000 C CNN
+F 2 "" H 10250 4300 50  0001 C CNN
+F 3 "" H 10250 4300 50  0001 C CNN
+	1    10250 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10250 4300 9950 4300
+Text GLabel 9950 4200 2    50   Input ~ 0
+EncB
+Text GLabel 9950 4400 2    50   Input ~ 0
+EncA
+Wire Bus Line
+	9750 4300 9750 4350
+Wire Bus Line
+	9750 4350 9650 4350
+Wire Wire Line
+	6800 3600 6800 4200
+Wire Wire Line
+	6800 4200 7350 4200
+Wire Wire Line
+	7350 4200 7350 4350
+Connection ~ 6800 3600
+Wire Wire Line
+	9000 4350 9000 4000
+Wire Wire Line
+	9000 4000 9550 4000
+Wire Wire Line
+	9550 4000 9550 3600
+Connection ~ 9550 3600
+Wire Wire Line
+	9350 4200 9350 4050
+Wire Wire Line
+	9350 4050 10100 4050
+Wire Wire Line
+	10100 4050 10100 3600
+Connection ~ 10100 3600
+Text GLabel 4100 3900 2    50   Input ~ 0
+EncA
+Text GLabel 4100 3700 2    50   Input ~ 0
+EncB
+Text GLabel 4100 3500 2    50   Input ~ 0
+SDA
+Text GLabel 4100 3400 2    50   Input ~ 0
+SCK
+Text GLabel 4100 4100 2    50   Input ~ 0
+col6
+Text GLabel 4100 4800 2    50   Input ~ 0
+col0
+$Comp
+L Device:R R8
+U 1 1 5E6DD63B
+P 5650 1100
+F 0 "R8" H 5580 1054 50  0000 R CNN
+F 1 "4.7k" H 5580 1145 50  0000 R CNN
+F 2 "Keebio-Parts:R_0805" V 5580 1100 50  0001 C CNN
+F 3 "~" H 5650 1100 50  0001 C CNN
+	1    5650 1100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 5E6DED2A
+P 5250 1100
+F 0 "R7" H 5180 1054 50  0000 R CNN
+F 1 "4.7k" H 5180 1145 50  0000 R CNN
+F 2 "Keebio-Parts:R_0805" V 5180 1100 50  0001 C CNN
+F 3 "~" H 5250 1100 50  0001 C CNN
+	1    5250 1100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4900 1450 4550 1450
+Wire Wire Line
+	5650 1250 5750 1250
+Wire Wire Line
+	5250 850  5250 950 
+Connection ~ 5250 950 
+Wire Wire Line
+	5250 950  5650 950 
+Wire Wire Line
+	4550 1350 5650 1350
+Wire Wire Line
+	5650 1350 5650 1250
+Connection ~ 5650 1250
+Wire Wire Line
+	4550 1250 5250 1250
+Wire Wire Line
+	4900 1450 4900 950 
+Wire Wire Line
+	4900 950  5250 950 
+$Comp
+L Switch:SW_Push SW37
+U 1 1 5EAF5A67
+P 9550 4950
+F 0 "SW37" H 9550 5235 50  0000 C CNN
+F 1 "SW_Push" H 9550 5144 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 9550 5150 50  0001 C CNN
+F 3 "~" H 9550 5150 50  0001 C CNN
+	1    9550 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 5000 9350 4950
+Wire Wire Line
+	9200 4350 9200 5000
+Wire Wire Line
+	9200 5000 9350 5000
+Connection ~ 9200 4350
+Wire Wire Line
+	9200 4350 9350 4350
+Wire Wire Line
+	9750 4950 10450 4950
+Wire Wire Line
+	10450 4950 10450 4050
+Wire Wire Line
+	10450 4050 10100 4050
+Connection ~ 10100 4050
+$EndSCHEMATC
