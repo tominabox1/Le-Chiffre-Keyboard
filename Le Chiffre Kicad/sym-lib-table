@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name ErgoBoard-rescue)(type Legacy)(uri ${KIPRJMOD}/ErgoBoard-rescue.lib)(options "")(descr ""))
+  (lib (name ErgoBoard-rescue)(type Legacy)(uri "/Users/tjcampie/Dropbox/keyboard projects/Le Chiffre/LeChiffre-rescue.lib")(options "")(descr ""))
+  (lib (name LeChiffre-rescue)(type Legacy)(uri ${KIPRJMOD}/LeChiffre-rescue.lib)(options "")(descr ""))
 )
