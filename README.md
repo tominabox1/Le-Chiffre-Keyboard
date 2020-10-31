@@ -10,3 +10,5 @@ Visit the QMK page for firmware information.
 P3D Mod Cases do not have the option for an OLED cover. They use 8 m2x8mm screws
 Print them Top Down on the bed.
 The Incline bottom is printed with the top part down, and the USB bump is bridged. No supports needed. 
+
+Optionally, for the P3D cases, an OLED bezel designed by u/bomtarnes can be printed and friction fitted (chiffoled3.stl).
