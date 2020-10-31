@@ -1,12 +1,8 @@
-# Le Chiffre
+# Le Chiffre (ironically, "the number" in French)
+The purpose of the board is to provide a platform for MX and Choc ergo (Alps support too!) in one package for when ones wrists need a break. The board supports an RGB LED strip with DI on port F0. The board is also fitted with support for run-of-the-mill .91" OLED and EC11 rotary encoder.
 
-This is the STL for acrylic bottom 3dp case with tighter tolerance OLED cutout for the Le Chiffre keyboard designed by tominabox1 (discord @tominabox1#7884)
+Great thanks goes to Jake at P3D for really making the case amazing and open sourcing his work. Check him out at P3Dstore.com
 
-This model is designed for MX switches and the fr4 plates provided in the group buy(s). Feel free to modify as you wish!
+Firmware for the keyboard is available here: https://github.com/qmk/qmk_firmware/tree/master/keyboards/le_chiffre
 
-The acrylic bottom is designed for 3mm or thinner material. 
-
-Visit the QMK page for firmware information.
-
-These use 12 m2x8mm screws. Machine screws work but self tapping ones are what it is designed for. https://www.mcmaster.com/99397A264/
-Print them Top Down on the bed. No supports needed.
+This project is open sourced with the GPL-3.0 license. The license conditionally allows for commercial use, modification, distribution, patent, and private use. Please take note of the license conditions before utilizing this project. 
