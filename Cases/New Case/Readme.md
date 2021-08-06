@@ -1,0 +1,1 @@
+This case uses m2 heatset inserts on the top and m2 hardware for the bottom. Print with large flat faces on the print bed. I suggest using internal brim on the top piece so that the sharp corners do not curl. 
