@@ -3,7 +3,7 @@ The purpose of the board is to provide a platform for MX and Choc ergo (Alps sup
 
 Great thanks goes to Jake at P3D for really making the case amazing and open sourcing his work. Check him out at P3Dstore.com
 
-Firmware for the keyboard is available here: https://github.com/qmk/qmk_firmware/tree/master/keyboards/le_chiffre
+Firmware for the keyboard is available here: https://github.com/qmk/qmk_firmware/tree/master/keyboards/tominabox1/le_chiffre
 
 This project is open sourced with the GPL-3.0 license. The license conditionally allows for commercial use, modification, distribution, patent, and private use. Please take note of the license conditions before utilizing this project. 
 
